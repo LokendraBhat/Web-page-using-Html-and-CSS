@@ -4,11 +4,10 @@
 }
 .main{
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('front.jpg');
-    background-position: center;
-    background-size:cover;
-    background-attachment:fixed;
-    width:100%;
-    height: 110vh;
+    /* background-position: center; */
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
 }
 .navbar{
     width: auto;
@@ -27,11 +26,13 @@ img{
    float: left;
 }
 #lg{
-    color:rgb(108, 253, 193);
+    color:rgb(156, 216, 119);
     font-size: 24px;
     font-family:Arial;
     float: left;
     padding-top: 20px;
+    margin-left:10px;
+    text-shadow: 2px 3px 6px rgb(99, 230, 90);
 }
 
 .menu{
@@ -72,7 +73,7 @@ ul li:hover{
     width:200px;
     height: 40px;
     background: transparent;
-    border:1px solid goldenrod;
+    border:1px solid rgb(255, 47, 0);
     margin-top: 13px;
     color:#fff;
     border-right: none;
@@ -80,18 +81,19 @@ ul li:hover{
     text-align: center;
     float:left;
     padding:10px;
-    border-bottom-left-radius: 5px;
+    /* border-bottom-left-radius: 5px; */
     border-top-left-radius: 5px;
 }
 .btn{
     width: 100px;
     height: 40px;
-    background: goldenrod;
-    border:2px solid goldenrod;
+    background: rgb(30, 5, 219);
+    border:1px solid rgb(255, 47, 0);
+    border-left:none;
     margin-top: 13px;
     color:#fff;
     font-size: 15px;
-    border-top-right-radius: 5px;
+    /* border-top-right-radius: 5px; */
     border-bottom-right-radius: 5px;
     cursor: pointer;
 }
@@ -121,7 +123,7 @@ ul li:hover{
 .content h1{
     font-family: 'Times New Roman';
     font-size: 50px;
-    padding-left: 20px;
+    padding-left: 10px;
     margin-top: 5%;
     letter-spacing: 2px;
 }
@@ -131,7 +133,7 @@ ul li:hover{
     background: #ff7200;
     border:none;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 18px;
     border-radius: 15px;
     cursor:pointer;
@@ -155,7 +157,7 @@ ul li:hover{
     background: linear-gradient(to top,rgba(0,0,0,0.8)40%,rgba(0,0,0,0.8)40%);
     position: absolute;
     top:-20px;
-    left: 870px;
+    left: 69%;
     border-radius: 12px;
     padding: 25px;
 }
@@ -166,7 +168,7 @@ ul li:hover{
     color: #fff;
     font-weight: bold;
     font-size: 22px;
-    background-color: rgb(0, 253, 253);
+    background-color: rgba(130, 114, 24, 0.743);
     border-radius: 10px;
     margin: 3px;
     padding: 10px;
@@ -176,10 +178,8 @@ ul li:hover{
     width: 240px;
     height: 35px;
     background: transparent;
+    border:none;
     border-bottom: 1px solid #42e634;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
@@ -214,7 +214,6 @@ ul li:hover{
 }
 .btrn:hover{
     background: #ff7200;
-    color: #fff;
 }
 .form .link{
     font-family: Arial, Helvetica, sans-serif;
@@ -223,6 +222,6 @@ ul li:hover{
     text-align:center;
 }
 .form .link a{
-    text-decoration: none;
+    text-decoration:none;
     color: #ff7200;
 }
